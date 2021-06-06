@@ -1,0 +1,19 @@
+{
+  "name": "instagram_clone",
+  "version": "1.0.0",
+  "description": "This is a Instagram Clone using MERN Stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "DC",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.3",
+    "nodemon": "^2.0.4"
+  }
+}
